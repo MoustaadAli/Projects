@@ -60,7 +60,7 @@ def mainCalculation():
     K = np.linspace(0.3,2.8,22)
     K = np.array(K).reshape([len(K),1])
     
-    # We define a ZCB curve (obtained from the market)
+    # We define a curve (obtained from the market)
     P0T = lambda T: np.exp(-0.05*T) 
     
     # DD model parameters
